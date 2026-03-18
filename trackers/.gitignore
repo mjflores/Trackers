@@ -1,0 +1,36 @@
+# Crear .gitignore
+cat > .gitignore << 'EOF'
+# Entorno virtual
+venvTrack310/
+venv/
+env/
+.env
+
+# Assets pesados (modelos y videos)
+assets/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Configs generados automáticamente
+configs/botsort_fast.yaml
+configs/strongsort_fast.yaml
+
+# Logs
+*.log
+logs/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
