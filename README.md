@@ -1,4 +1,4 @@
-# Multi-Object Tracking System
+# Object Tracking System
 
 ## Instalación
 ```bash
